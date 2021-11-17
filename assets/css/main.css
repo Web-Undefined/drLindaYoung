@@ -4724,7 +4724,25 @@ body.is-preload #banner:after {
 .aestheticButtons:hover {
     background-color: #257cc4 !important;
 }
+.botoxBA {
+    display: block;
+    max-width: 50%;
+}
 
+@media screen and (min-width: 983px) {
+    .shorter {
+        max-width: 70%;
+    }
+    #onRight {
+        margin-left: auto;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .botoxBA {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 @media screen and (min-width: 825px) {
     #vi {
         margin-bottom: 100px;
