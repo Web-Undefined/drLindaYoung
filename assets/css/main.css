@@ -4728,6 +4728,11 @@ body.is-preload #banner:after {
     display: block;
     max-width: 50%;
 }
+.cbButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @media screen and (min-width: 983px) {
     .shorter {
@@ -4735,6 +4740,16 @@ body.is-preload #banner:after {
     }
     #onRight {
         margin-left: auto;
+    }
+}
+@media screen and (min-width: 825px) {
+    .cbButton {
+        max-width: 50%;
+    }
+}
+@media screen and (min-width: 1050px) {
+    .cbButton {
+        max-width: 30%;
     }
 }
 @media screen and (max-width: 1030px) {
