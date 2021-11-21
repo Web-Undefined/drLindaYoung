@@ -4741,6 +4741,61 @@ body.is-preload #banner:after {
     margin-top: 30px;
 }
 
+.testimonials {
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+.innerTest {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.borderTest {
+    width: 160px;
+    height: 5px;
+    background: #257cc4;
+    margin: 26px auto;
+}
+.rowTest {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.colTest {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.testimonial {
+    background: #fff;
+    padding: 30px;
+    border-radius: 2.5%;
+}
+.name {
+    font-size: 1.25em;
+    margin: 10px 0;
+}
+.stars {
+    color: #257cc4;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 960px) {
+    .colTest {
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .colTest {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
 @media screen and (min-width: 983px) {
     .shorter {
         max-width: 70%;
