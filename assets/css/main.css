@@ -4783,6 +4783,13 @@ body.is-preload #banner:after {
     color: #257cc4;
     margin-bottom: 10px;
 }
+.viPics {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
 @media screen and (max-width: 960px) {
     .colTest {
         flex: 100%;
