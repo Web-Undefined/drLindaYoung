@@ -3429,6 +3429,36 @@ body {
     }
 }
 
+/* Compassion Banner */
+
+#bannerAbove {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+@media screen and (max-width: 736px) {
+    #bannerAbove {
+        height: 30px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #bannerAbove {
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+        padding-top: 4px;
+    }
+}
+@media screen and (max-width: 420px) {
+    #bannerAbove {
+        font-size: 10px;
+        height: 30px;
+        line-height: 30px;
+        padding-top: 5px;
+    }
+}
+
 /* Banner */
 
 #banner {
@@ -3452,7 +3482,7 @@ body {
     align-items: center;
     padding: 4em 0 2em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("../../images/landingImgSmaller.png");
+        url("../../images/landingImg.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
