@@ -3442,7 +3442,7 @@ body {
         line-height: 30px;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1281px) {
     #bannerAbove {
         font-size: 12px;
         height: 30px;
@@ -3451,9 +3451,23 @@ body {
     }
     #banner {
         height: 600px !important;
+        background-image: linear-gradient(
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)
+            ),
+            url("../../images/landingImgSmaller.png");
     }
     #newResource {
         font-size: 14px;
+    }
+}
+@media screen and (min-width: 1281px) {
+    #banner {
+        background-image: linear-gradient(
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)
+            ),
+            url("../../images/landingImg.jpg");
     }
 }
 @media screen and (max-width: 420px) {
@@ -3487,8 +3501,7 @@ body {
     -ms-align-items: center;
     align-items: center;
     padding: 4em 0 2em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("../../images/landingImg.jpg");
+
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
