@@ -3449,6 +3449,12 @@ body {
         line-height: 30px;
         padding-top: 4px;
     }
+    #banner {
+        height: 600px !important;
+    }
+    #newResource {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 420px) {
     #bannerAbove {
