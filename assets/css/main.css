@@ -3486,9 +3486,8 @@ body {
     transition: max-height 0.2s ease-out;
 }
 
-.active,
-.collapsible:hover {
-    background-color: #555;
+.collapsible {
+    min-width: 4em;
 }
 
 /* Banner */
