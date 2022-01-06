@@ -91,15 +91,30 @@
     <section id="three" class="wrapper style1 special">
         <div class="inner">
             <h3 class="major special">Holiday Hours</h3>
-            <div>
+            <button class="collapsible"><i id="expandIcon" class="fas fa-angle-down fa-lg"></i></button>
+            <div class="expandableContent" style="padding-top: 1em;">
                 <p>
-                    Closed all day <b>January 17th, 2022</b></br>
-
-                    Closed all day <b>January 27th, 2022</b></br>
+                    Closed all day <b>January 17th & 27th, 2022</b></br>
 
                     Closed all day <b>February 21st, 2022</b></br>
 
                     Closed all week <b>May 30th, 2022</b></br>
+
+                    Closed all day <b>July 4th, 2022</b></br>
+
+                    Opens at 1:00PM <b>July 5th, 2022</b></br>
+
+                    Closed all day <b>August 8th, 2022</b></br>
+
+                    Closed all day <b>September 4th, 2022</b></br>
+
+                    Closed all day <b>October 10th, 2022</b></br>
+
+                    Closed all day <b>November 11th, 2022</b></br>
+
+                    Closing at 12:00PM <b>November 23rd, 2022</b></br>
+
+                    Closed all day <b>November 24th & 25th, 2022</b></br>
 
                     Closed all day <b>December 23rd, 2022</b></br>
 
@@ -110,6 +125,28 @@
             </div>
         </div>
     </section>
+
+    <!-- Expandable Row Script -->
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var icon = document.getElementById("expandIcon");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                icon.classList.toggle('fa-angle-down');
+                icon.classList.toggle('fa-angle-up');
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 
     <!-- One -->
     <section id="one" class="wrapper alt style2">
