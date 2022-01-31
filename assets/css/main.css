@@ -3497,6 +3497,17 @@ body {
     margin: 0 auto;
 }
 
+.column {
+    display: block;
+    margin: 0 auto;
+}
+#care {
+    padding-bottom: 0.5rem;
+}
+#careText {
+    margin-bottom: 10px;
+}
+
 /* Banner */
 
 #banner {
