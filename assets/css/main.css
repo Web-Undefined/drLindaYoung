@@ -3455,7 +3455,7 @@ body {
                 rgba(0, 0, 0, 0.3),
                 rgba(0, 0, 0, 0.3)
             ),
-            url("../../images/landingImgSmaller.png");
+            url("../../images/new3.jpg");
     }
     #newResource {
         font-size: 14px;
@@ -3467,7 +3467,7 @@ body {
                 rgba(0, 0, 0, 0.3),
                 rgba(0, 0, 0, 0.3)
             ),
-            url("../../images/landingImg.jpg");
+            url("../../images/new3.jpg");
     }
 }
 @media screen and (max-width: 420px) {
@@ -3790,7 +3790,7 @@ body.is-preload #banner:after {
     color: #ffffff;
     padding: 10em 0 8em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("../../images/examRoom3.jpg");
+        url("../../images/new8.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -4868,16 +4868,29 @@ body.is-preload #banner:after {
     overflow: hidden;
     border-radius: 0.5em;
 }
+.landing-img {
+    margin: 0 auto;
+}
+.inner-small {
+    margin-top: 0 !important;
+}
+
 @media screen and (max-width: 960px) {
     .colTest {
         flex: 100%;
         max-width: 80%;
+    }
+    .landing-img {
+        max-width: 15em;
     }
 }
 @media screen and (max-width: 600px) {
     .colTest {
         flex: 100%;
         max-width: 100%;
+    }
+    .landing-img {
+        max-width: 12em;
     }
 }
 
