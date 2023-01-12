@@ -4874,6 +4874,9 @@ body.is-preload #banner:after {
 .inner-small {
     margin-top: 0 !important;
 }
+.more-bottom {
+    margin-bottom: 7em;
+}
 
 @media screen and (max-width: 960px) {
     .colTest {
@@ -4882,6 +4885,9 @@ body.is-preload #banner:after {
     }
     .landing-img {
         max-width: 15em;
+    }
+    .more-bottom {
+        margin-bottom: 4em;
     }
 }
 @media screen and (max-width: 600px) {
