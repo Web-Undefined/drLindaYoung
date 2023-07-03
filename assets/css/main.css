@@ -4959,3 +4959,9 @@ body.is-preload #banner:after {
         font-size: 8px !important;
     }
 }
+
+@media screen and (min-width: 1036px) {
+    .marg-bot {
+        margin-bottom: 5em;
+    }
+}
